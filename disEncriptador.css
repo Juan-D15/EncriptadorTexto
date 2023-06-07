@@ -1,7 +1,38 @@
-.btn-encriptar, .btn-desencriptar, .btn-copiar{
-    font-size: 16px;
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo-alura{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.botones-en-des{
+    display: flex;
+}
+
+.btn-encriptar{
+    border-radius: 10px;
+    font-size: 15px;
     font-weight: bold;
-    border: none;
+    background: lightsteelblue;
+}
+
+.btn-desencriptar{
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: lightsteelblue;
+}
+
+.btn-copiar{
     border-radius: 10px;
     background: lightsteelblue;
 }
