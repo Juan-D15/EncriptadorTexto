@@ -1,38 +1,125 @@
 *{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu';
+    background: #E8E4E4;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
 }
-
+h1{
+    font-family: 'Ubuntu';
+}
 .logo-alura{
     padding-top: 10px;
     margin-left: 10px;
     width: 10%;
 }
 
-main{
-    display: flex;
-    margin-bottom: 10px;
-    margin-left: 180px;
+h1{
+    position: absolute;
+    font-size: 50px;
+    color: darkblue;
+    left: 172px;
+    top: 15px;
 }
 
+main{
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+}
+
+/*text area, cajas donde se ingresa el texto*/
+.txt-info{
+    margin-top: 40px;
+    color: darkblue;
+    font-size: 15px; 
+}
+
+.txt-ingresado{
+    color: #1958A1;
+    margin-top: 10px;
+    text-transform: lowercase;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #336FB6;
+
+}
+::placeholder{
+    color: #1958A1;
+}
+.txt-ingresado:focus{
+    outline: none;
+}
+
+.txt-encriptado{
+    border-radius: 10px;
+    color: #1958A1;
+    margin-top: 50px;
+    position: fixed;
+    background: white;
+    border: 1px solid #336FB6;
+
+}
+
+.txt-encriptado:focus{
+    outline: none;
+}
+
+/*botones*/
 .botones-en-des{
     display: flex;
+    margin-top: 15px;
 }
-
 .btn-encriptar{
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
-    background: lightsteelblue;
+    background: #479CFF;
+    border: 1px solid #000000;
+    position: absolute;
+    width: 159px;
+    height: 49px;
+    left: 800px;
+    top: 180px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.btn-encriptar:hover{
+    transform: scale(1.1);
 }
 
 .btn-desencriptar{
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
-    background: lightsteelblue;
+    background: #479CFF;
+    border: 1px solid #000000;
+    position: absolute;
+    width: 159px;
+    height: 49px;
+    left: 800px;
+    top: 450px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.btn-desencriptar:hover{
+    transform: scale(1.1);
 }
 
 .btn-copiar{
     border-radius: 10px;
-    background: lightsteelblue;
+    border: none;
+    background: white;
+    position: absolute;
+    left: 695px;
+    top: 400px
+}
+.icono-copiar{
+    cursor: pointer;
+    transition: 0.5s all;
+    background: white;
+}
+.icono-copiar:hover{
+    transform: scale(1.1);
 }
