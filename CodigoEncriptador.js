@@ -17,7 +17,7 @@ function validartxt(){
 
 //funciones encriptar y desencriptar
 function encriptar(textoEncriptado){
-    let Codigos = [["a",""], ["b",""], ["c",""],["d",""], ["e",""], ["f",""],["g",""], ["h",""], ["i",""],["j",""], ["k",""], ["l",""],["m",""], ["n",""], ["ñ",""],["o",""], ["p",""], ["q",""],["r",""], ["s",""], ["t",""],["u",""], ["v",""], ["w",""],["x",""], ["y",""], ["z",""]];
+    let Codigos = [["a","69"], ["b","01"], ["c","79"],["d","25"], ["e","35"], ["f","33"],["g","88"], ["h","91"], ["i","45"],["j","15"], ["k","24"], ["l","34"],["m","22"], ["n","12"], ["ñ","90"],["o","61"], ["p","17"], ["q","c-j7"],["r","04"], ["s","84"], ["t","671"],["u","10"], ["v","010"], ["w","777"],["x","3.14"], ["y","99"], ["z","09"]];
     textoEncriptado = textoEncriptado.toLowerCase()
 
     for(let i=0; i < Codigos.length;i++){
@@ -29,7 +29,7 @@ function encriptar(textoEncriptado){
 }
 
 function desencriptar(textoDesencriptado){
-    let Codigos = [["a","xd"], ["b","index"], ["c","array"]];
+    let Codigos = [["a","69"], ["b","01"], ["c","79"],["d","25"], ["e","35"], ["f","33"],["g","88"], ["h","91"], ["i","45"],["j","15"], ["k","24"], ["l","34"],["m","22"], ["n","12"], ["ñ","90"],["o","61"], ["p","17"], ["q","c-j7"],["r","04"], ["s","84"], ["t","671"],["u","10"], ["v","010"], ["w","777"],["x","3.14"], ["y","99"], ["z","09"]];
     textoDesencriptado = textoDesencriptado.toLowerCase()
 
     for(let i=0; i < Codigos.length;i++){
