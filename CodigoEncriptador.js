@@ -64,5 +64,3 @@ function btnCopiar(){
     txtEncriptado.value = "";
     alert("Texto Copiado")
 }
-
-
